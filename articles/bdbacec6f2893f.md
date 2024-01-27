@@ -16,9 +16,9 @@ published: true
 ・
 
 # 新規作成された@messageに紐づくroomを@roomに格納する
-      @room = @message.room
-      # 本引数を２つ持たせてcreate_notification_dmメソッドを実行
-      @room.create_notification_dm(current_user, @message.id)
+   @room = @message.room
+# 本引数を２つ持たせてcreate_notification_dmメソッドを実行
+ @room.create_notification_dm(current_user, @message.id)
 ・
 ・
 ・
@@ -30,7 +30,7 @@ meaasageとroomは１対多の関係なのでアソシエーションの関係�
 create_notification_dmは
 これからRoomモデルに定義する
 create_notification_dmメソッドを呼び出しており
-実行後、roomモデルに動作が移流よ！
+実行後、roomモデルに動作が移るよ！
 
 (current_user, @message.id)は
 Notificationモデルに

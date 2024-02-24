@@ -17,7 +17,7 @@ ransackを用いて実装します。
 ```html:Gemfile
 gem 'ransack'
 ```
-これを記述し、bundle installします！
+これを記述し、`bundle install`します！
 
 次に実装したいコントローラのindexアクションに以下のように記述します。
 ```html:***/controller.rb
